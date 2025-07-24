@@ -15,5 +15,6 @@ console.log(lang);
 
 function changerLien(){
     const link =document.querySelector('a')
-    link.setAttribute('href', 'https://www.francefootball.fr')
+    //link.setAttribute('href', 'https://www.francefootball.fr')
+link.href = 'http://www.francefootball.fr'
 }
