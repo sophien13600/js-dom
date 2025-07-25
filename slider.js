@@ -24,7 +24,7 @@ function changerImage() {
 
     const img = document.querySelector('img')
     const src = img.getAttribute('src')
-    // je cherche l'index de mario
+    // je cherche l'index de l'image affiché
     const index = images.indexOf(src)
     //je rajoute 1 a l'index  et quand le reste est egale à zero on retourne au debut du tableau
     const next = (index + 1) % images.length
