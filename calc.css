@@ -1,0 +1,28 @@
+#calculatrice{
+
+ width:23vw;   
+margin-top:40px;
+display: flex;
+flex-wrap:wrap;
+gap:15px;
+
+
+
+
+
+
+}
+.touche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height:4vh;
+    border-radius:7px;
+    background-color:lightgray ;
+    text-align: center;
+}
+.afficheur{
+    width:15vw;
+    background-color:aqua;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <script src="./formulaire.js" defer></script>
+</head>
+<body>
+  <h1>
+        Formulaire
+  </h1>  
+  <div>
+    <label for="nom">Nom</label>
+    <input type="text" id="nom">
+  </div>
+  <div>
+    <button onclick="direBonjour()">
+        Dire bonjour
+    </button>
+  </div>
+  <div id="afficheur">
+  </div>
+<label for="genre">Genre</label>
+
+<select  id="genre">
+  <option value="">Chosissez votre genre</option>
+  <option value="Monsieur">Monsieur</option>
+  <option value="Madame">Madame</option>
+</select>
+<div>
+        <label for="sports">Sports</label>
+
+        <select id="sports" multiple>
+            <option value="foot">foot</option>
+            <option value="hand">hand</option>
+            <option value="tennis">tennis</option>
+            <option value="rugby">rugby</option>
+        </select>
+    </div>
+
+</body>
+</html>

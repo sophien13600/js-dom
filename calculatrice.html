@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <script src="./calculatrice.js" defer></script>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    <h1>Calculatrice</h1>
+    <label for="valeur1">
+        Valeur 1:
+    </label>
+    <input id="valeur1" type="number">    
+    <label for="valeur2">
+        Valeur 2:
+    </label>
+    <input id="valeur2" type="number">    
+    <select id="operateur">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">X</option>
+        <option value="/">/</option>
+    </select>
+    <button onclick="calculer()">Calculer</button>
+    <div id="afficher"></div>
+    <div id =calculatrice>
+        <div class="afficheur">
+
+        </div>
+            <div class ="touche" onclick ="afficher()">
+                <p>1</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>2</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>3</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>4</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>5</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>6</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>7</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>8</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>9</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>+</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>-</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>*</p>
+            </div>
+            <div class ="touche"onclick ="afficher()">
+                <p>/</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
