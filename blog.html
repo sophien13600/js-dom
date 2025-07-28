@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src ="./blog.js" defer></script>
+    <link rel="stylesheet" href="./blog-css.css">
+</head>
+<body>
+    <div class="container">
+        <label for="commentaire">Votre commentaire</label>
+        <textarea name="commentaire" id="commentaire" rows="5" cols="33"></textarea>
+        <button onclick="ajouter()">Ajouter</button>
+        <div>
+            <label for="number">Supprimer un commentaire</label>
+            <input type="number" id="indice"min ="0">
+            <button onclick="supprimer()">Supprimer</button>
+        </div>
+    </div>
+        <div id="commentaires" class="coms">
+
+        </div>
+
+</body>
+</html>

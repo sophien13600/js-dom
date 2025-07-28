@@ -1,0 +1,12 @@
+.container{
+    padding:50px;
+    width:50vw;
+    background-color: aquamarine;
+    display: flex;
+
+    align-items:center; 
+}
+
+textarea{
+    margin:0px 10px 0px 10px;
+}

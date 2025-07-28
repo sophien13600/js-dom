@@ -7,15 +7,15 @@ const operand = document.getElementById('operateur')
 
 
 function calculer(){
-//console.log(operand.value);
-let number1 =Number(`${v1.value}` )
-let number2 =Number(`${v2.value}` )
-//let operateur = `${operand.value}`
-        
-if(operand.value =='+'){
-    resultat = number1 +number2
+    //console.log(operand.value);
+    let number1 =Number(`${v1.value}` )
+    let number2 =Number(`${v2.value}` )
+    //let operateur = `${operand.value}`
+    
+    if(operand.value =='+'){
+        resultat = number1 +number2
 }else if(operand.value =='-'){
-
+    
     resultat = number1 - number2
 }else if(operand.value =='*'){
     
@@ -25,12 +25,22 @@ if(operand.value =='+'){
     resultat = number1 / number2
 }
 // console.log(typeof(operand.value));
-    div.innerHTML=resultat
+div.innerHTML=resultat
 
 }
-function afficher(){
-    let 
-}
+// on recupere l'afficheur
+let afficheur = document.querySelector('.afficheur')
+
+function afficher(...params){
+             for (const param of params){
+            afficheur.innerHTML += param
+   } 
+
+
+        }
+
+
+    
 
 
 /**********************************

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent + Enfant</title>
+    <script src="./parent-enfant.js"></script>
+</head>
+
+<body>
+    <h1>Parent + Enfant</h1>
+    <div id="intro" lang="fr">
+        Considérons les paragraphes suivants :
+        <p class="rouge">Bonjour</p>
+        <p class="bleu">
+            Salut,
+            <a href="https://x.com/kmitroglou">n'oublions jamais Mitroglou</a>
+        </p>
+        <p class="gras rouge">Salut</p>
+        <span class="rouge">Bonsoir</span>
+    </div>
+    <div>
+        <button onclick="recupererParent()">
+            Parent
+        </button>
+        <button onclick="recupererEnfantsHTML()">
+        enfants HTML ou texte
+        </button>
+        <button onclick="recupererEnfants()">
+            Enfants HTML ou texte
+        </button>
+    </div>
+</body>
