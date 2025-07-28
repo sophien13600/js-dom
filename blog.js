@@ -1,3 +1,11 @@
+/*
+Exercice : ajouter un bouton remplacer qui remplace en fonction de l'indice
+ajuster les couleurs
+*/
+
+
+
+
 const indice = document.getElementById('indice')  
 const commentaires = document.getElementById('commentaires')
 const commentaire = document.querySelector('textarea')
